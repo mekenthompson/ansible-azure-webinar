@@ -36,7 +36,7 @@ The demo scripts use [`demo-magic`](https://github.com/paxtonhare/demo-magic) to
 wget http://www.ivarch.com/programs/sources/pv-1.6.6.tar.gz
 tar -xzvf pv-1.6.6.tar.gz
 cd pv-1.6.6
-configure --prefix=$HOME
+./configure --prefix=$HOME
 make
 make install
 ```
